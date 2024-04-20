@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <TITle>Contacto - Barberia One Piece</TITle>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    
+
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img id="imgcabeza" src="img/cabeza.png" alt="Logo"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="productos.html">productos</a></li>
+                        <li><a href="contacto.html">contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </header>
+
+        <main>
+            <form>
+                <label for= "nombreapellido"> Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
+
+                <label for="correoelectronico">Correo electronico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="pedrito@mail.com">
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="1234-5678">
+
+                <label for="mensaje"> Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+
+                <fieldset>
+                    <legend>Como le gustaria ser contactado?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">
+                        Email</label>
+
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">
+                        Telefono</label>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Cual horario desea?</legend>    
+                    <select>
+                        <option>TEMPRANO</option>
+                        <option>TARDE</option>
+                        <option>NOCHE</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>Le gustaria recibir notificaciones?</label>
+
+                <input type="submit" value="Enviar formulario" class="enviar">
+                
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+               <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>8am 5pm</td>
+                </tr>
+
+                <tr>
+                    <td>Martes</td>
+                    <td>8am 5pm</td>
+                </tr>
+
+                <tr>
+                    <td>Jueves</td>
+                    <td>8am 5pm</td>
+                </tr>
+
+               </tbody>               
+            </table>
+
+        </main>
+
+        <footer>
+            <img src="img/pie.png">
+            <p class="copy">Barberia One Piece 2024</p>
+        </footer>
+
+    </body>
+
+
+
+</html>

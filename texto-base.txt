@@ -1,0 +1,55 @@
+Sobre la Barbería Alura
+Ubicada en el corazón de la ciudad, la Barbería Alura trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente. 
+Nuestra misión es: "Proporcionar autoestima y calidad de vida a nuestros clientes".
+Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes. 
+
+**
+h= titulo
+p= [parrafo]
+strong= negrita
+em= italico
+lang="es" idioma de la pagina en espa;ol, sirve para la traduccion
+charset="UTF-8"> idioma para las consonantes de la pagina
+<title>Barberia Alura</title> titulo de la pagina
+etiqueta de head para la lineas de informacion y de body contenido de la pagina
+Con la etiqueta DOCTYPE, definimos cuál versión de HTML estamos utilizando.
+La etiqueta <html>, marca el contenido a ser renderizado en el navegador. Dentro de esta etiqueta, podemos definir el lenguaje de la página, a través de la propiedad lang.
+Cómo pasar las informaciones del encoding de nuestra página para el navegador, a través de la etiqueta <meta> y de la propiedad charset.
+Cómo definir el título de una página, a través de la etiqueta <title>.
+Cómo separar las informaciones que están siendo pasadas para el navegador, utilizando la etiqueta <head>.
+Cómo separar el contenido de la página, utilizando la etiqueta <body>.
+A configurar la presentación de los textos: alineamiento (text-align), tamaño de la fuente (font-size), el color del fondo (background) y el color del texto (color).
+CSS inline: adicionar estilos CSS en la misma línea donde tenemos nuestra etiqueta HTML.
+La etiqueta <style>: dentro de esta etiqueta podemos colocar marcaciones de CSS referentes a los elementos que tenemos en nuestro HTML.
+La presentación del CSS como un archivo externo.
+Cómo funciona el estilo en cascada del CSS.
+Cómo importar un archivo externo de CSS dentro de nuestra página HTML.
+Cómo representar colores en el CSS: 1) a través del nombre del color en inglés, 2) a través de su representación hexadecimal y 3) a través del RGB.
+Cómo ajustar la altura del elemento, a través de la propiedad height.
+Cómo ajustar la anchura del elemento, a través de la propiedad width.
+Cómo ajustar el margen interno del elemento, a través de la propiedad padding.
+Cómo ajustar el margen externo del elemento, a través de la propiedad margin.
+Vimos que para cada ítem de la lista necesitamos usar la etiqueta <li>.
+El concepto de las clases en el CSS, estas sirven para marcar ítems, solo que podemos replicar los estilos en varios elementos.
+Cómo referenciar una clase en el CSS.
+Divisores de contenido, utilizando la etiqueta <div>.
+Los comportamientos inline y block.
+Algunos tipos de inputs para el celular: email, tel, number, password, date, datetime, month y search.
+
+Cómo configurar campos obligatorios, o sea, exigir al usuario para que algunos campos sean completados, a través del atributo required.
+
+Cómo mostrar una sugerencia para completar los campos, a través del atributo placeholder.
+
+Cómo dejar una opción marcada por padrón en nuestros input radio y checkbox a través del atributo checked.
+
+Cómo estructurar mejor nuestro código con fieldset y legend.
+
+Cómo agregar una alternativa a la imagen, describiéndola, con el atributo alt.
+A crear una tabla HTML.
+La etiqueta table, representa la tabla.
+La etiqueta tr, representa la fila de la tabla.
+La etiqueta td, representa la celda de la tabla.
+La etiqueta thead, representa el encabezado de la tabla.
+La etiqueta tbody, representa el cuerpo de la tabla.
+La etiqueta th, representa la celda del encabezado de la tabla.
+La etiqueta tfoot, representa el pie de página de la tabla.

@@ -1,0 +1,54 @@
+h3{
+    text-align: center;
+    font-size: 200px;
+    color: red;
+    background-color: #f1ff6e;
+}
+#img{
+    width: 100%;
+}
+
+.principal{
+    background: #c4d1ee;
+    padding-bottom: 10%;
+}
+
+h1{
+    text-align: center; background: #f1ff6e;
+}
+
+p{
+    text-align: center;
+    /*background: #aab4b4;*/
+}
+
+em strong{
+    color: rgb(218, 17, 17);
+}
+#mision{
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.goats{
+    background: #ffb8b8;
+    font-size: x-large;
+    padding: 5%;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 5%;
+}
+.imgtres{
+    width: 50%;
+}
